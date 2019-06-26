@@ -1,5 +1,9 @@
 # Android AboutView
+示例图片
+![此处输入图片的描述][1]
 
+
+  [1]: 1.png
 直接引用项目
 ```
 compile 'com.rustfisher:FisherView:0.1.6'

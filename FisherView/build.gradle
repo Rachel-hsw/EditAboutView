@@ -4,7 +4,7 @@ apply plugin: 'com.jfrog.bintray'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         minSdkVersion 17
@@ -28,6 +28,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.alibaba:fastjson:1.2.24'
 }
 
 version = "0.1.6"
